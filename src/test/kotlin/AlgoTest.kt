@@ -1,5 +1,6 @@
 import org.junit.jupiter.api.BeforeAll
 import org.junit.jupiter.api.Test
+import org.junit.jupiter.api.assertThrows
 
 const val TEST_CONFIG_PATH = "test_config.json"
 
@@ -16,10 +17,15 @@ class AlgoTest {
 
     private fun generalMethodTest(
         methodName: String,
-        tests: Iterable<TestData>,
+        tests: ArrayList<TestData>,
         argumentSelector: (TestData) -> List<Any>
     ) {
-        val method = Algo::class.java.declaredMethods.find { method -> method.name == methodName }
+        val args = argumentSelector(tests[0])
+        val method = Algo::class.java.declaredMethods.find {
+            val params = it.parameters
+            return@find it.name == methodName && (params.size == args.size)
+                    && params.indices.all { i -> args[i]::class.java == params[i].annotatedType }
+        }
 
         method?.let {
             it.isAccessible = true
@@ -84,5 +90,17 @@ class AlgoTest {
         assert(algo.predict("ab") == false)
         assert(algo.predict("abababb") == false)
         assert(algo.predict(""))
+    }
+
+    @Test
+    fun testGrammar() {
+        assertThrows<IllegalArgumentException> {
+            Grammar(
+                setOf(SpecialSymbols.SPECIAL_NON_TERMINAL.value),
+                setOf(SpecialSymbols.SPECIAL_NON_TERMINAL.value),
+                ' ',
+                mapOf()
+            )
+        }
     }
 }

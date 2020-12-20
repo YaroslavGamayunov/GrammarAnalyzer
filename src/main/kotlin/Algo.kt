@@ -42,7 +42,7 @@ class Algo(private val grammar: Grammar) {
         )
     }
 
-    private fun initialize(word: String): List<MutableSet<Situation>> {
+    private fun initialize(word: String): ArrayList<HashSet<Situation>> {
         val situations = ArrayList<HashSet<Situation>>(word.length)
         for (i in word.indices + 1) {
             situations.add(HashSet())
@@ -55,11 +55,11 @@ class Algo(private val grammar: Grammar) {
         return situations
     }
 
-    private fun scan(situations: List<MutableSet<Situation>>, j: Int, word: String) {
+    private fun scan(situations: ArrayList<HashSet<Situation>>, j: Int, word: String) {
         if (j == 0) {
             return
         }
-        // situation is (A -> <alpha>.a<beta>, i)
+
         for (situation in situations[j - 1]) {
             val rule = situation.rule
 
@@ -71,7 +71,7 @@ class Algo(private val grammar: Grammar) {
         }
     }
 
-    private fun predict(situations: List<MutableSet<Situation>>, j: Int) {
+    private fun predict(situations: ArrayList<HashSet<Situation>>, j: Int) {
         val updatedData = arrayListOf<Situation>()
 
         for (situation in situations[j]) {
@@ -87,7 +87,7 @@ class Algo(private val grammar: Grammar) {
         situations[j].addAll(updatedData)
     }
 
-    private fun complete(situations: List<MutableSet<Situation>>, j: Int) {
+    private fun complete(situations: ArrayList<HashSet<Situation>>, j: Int) {
         val updatedData = arrayListOf<Situation>()
 
         for ((rule1, i) in situations[j]) {
