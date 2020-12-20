@@ -1,0 +1,1294 @@
+{
+    "situations": [
+        [
+            {
+                "rule": {
+                    "leftPart": "U",
+                    "rightPart": "VbU",
+                    "dotPosition": 1
+                },
+                "position": 0
+            },
+            {
+                "rule": {
+                    "leftPart": "S",
+                    "rightPart": "U",
+                    "dotPosition": 0
+                },
+                "position": 0
+            },
+            {
+                "rule": {
+                    "leftPart": "U",
+                    "rightPart": "VbU",
+                    "dotPosition": 0
+                },
+                "position": 0
+            },
+            {
+                "rule": {
+                    "leftPart": "U",
+                    "rightPart": "VbV",
+                    "dotPosition": 1
+                },
+                "position": 0
+            },
+            {
+                "rule": {
+                    "leftPart": "U",
+                    "rightPart": "VbV",
+                    "dotPosition": 0
+                },
+                "position": 0
+            },
+            {
+                "rule": {
+                    "leftPart": "V",
+                    "rightPart": "aVbV",
+                    "dotPosition": 0
+                },
+                "position": 0
+            },
+            {
+                "rule": {
+                    "leftPart": "T",
+                    "rightPart": "TaV",
+                    "dotPosition": 0
+                },
+                "position": 0
+            },
+            {
+                "rule": {
+                    "leftPart": "S",
+                    "rightPart": "T",
+                    "dotPosition": 0
+                },
+                "position": 0
+            },
+            {
+                "rule": {
+                    "leftPart": "V",
+                    "rightPart": "",
+                    "dotPosition": 0
+                },
+                "position": 0
+            },
+            {
+                "rule": {
+                    "leftPart": "U",
+                    "rightPart": "UbV",
+                    "dotPosition": 0
+                },
+                "position": 0
+            },
+            {
+                "rule": {
+                    "leftPart": "T",
+                    "rightPart": "VaV",
+                    "dotPosition": 0
+                },
+                "position": 0
+            },
+            {
+                "rule": {
+                    "leftPart": "V",
+                    "rightPart": "bVaV",
+                    "dotPosition": 0
+                },
+                "position": 0
+            },
+            {
+                "rule": {
+                    "leftPart": "T",
+                    "rightPart": "VaV",
+                    "dotPosition": 1
+                },
+                "position": 0
+            },
+            {
+                "rule": {
+                    "leftPart": "T",
+                    "rightPart": "VaT",
+                    "dotPosition": 0
+                },
+                "position": 0
+            },
+            {
+                "rule": {
+                    "leftPart": "T",
+                    "rightPart": "VaT",
+                    "dotPosition": 1
+                },
+                "position": 0
+            },
+            {
+                "rule": {
+                    "leftPart": "$",
+                    "rightPart": "S",
+                    "dotPosition": 0
+                },
+                "position": 0
+            }
+        ],
+        [
+            {
+                "rule": {
+                    "leftPart": "V",
+                    "rightPart": "aVbV",
+                    "dotPosition": 0
+                },
+                "position": 1
+            },
+            {
+                "rule": {
+                    "leftPart": "V",
+                    "rightPart": "aVbV",
+                    "dotPosition": 1
+                },
+                "position": 0
+            },
+            {
+                "rule": {
+                    "leftPart": "T",
+                    "rightPart": "TaV",
+                    "dotPosition": 0
+                },
+                "position": 1
+            },
+            {
+                "rule": {
+                    "leftPart": "S",
+                    "rightPart": "T",
+                    "dotPosition": 1
+                },
+                "position": 0
+            },
+            {
+                "rule": {
+                    "leftPart": "V",
+                    "rightPart": "aVbV",
+                    "dotPosition": 2
+                },
+                "position": 0
+            },
+            {
+                "rule": {
+                    "leftPart": "T",
+                    "rightPart": "TaV",
+                    "dotPosition": 1
+                },
+                "position": 0
+            },
+            {
+                "rule": {
+                    "leftPart": "V",
+                    "rightPart": "",
+                    "dotPosition": 0
+                },
+                "position": 1
+            },
+            {
+                "rule": {
+                    "leftPart": "T",
+                    "rightPart": "VaV",
+                    "dotPosition": 0
+                },
+                "position": 1
+            },
+            {
+                "rule": {
+                    "leftPart": "T",
+                    "rightPart": "VaV",
+                    "dotPosition": 1
+                },
+                "position": 1
+            },
+            {
+                "rule": {
+                    "leftPart": "T",
+                    "rightPart": "VaT",
+                    "dotPosition": 0
+                },
+                "position": 1
+            },
+            {
+                "rule": {
+                    "leftPart": "T",
+                    "rightPart": "VaV",
+                    "dotPosition": 2
+                },
+                "position": 0
+            },
+            {
+                "rule": {
+                    "leftPart": "T",
+                    "rightPart": "VaT",
+                    "dotPosition": 1
+                },
+                "position": 1
+            },
+            {
+                "rule": {
+                    "leftPart": "T",
+                    "rightPart": "VaV",
+                    "dotPosition": 3
+                },
+                "position": 0
+            },
+            {
+                "rule": {
+                    "leftPart": "T",
+                    "rightPart": "VaT",
+                    "dotPosition": 2
+                },
+                "position": 0
+            },
+            {
+                "rule": {
+                    "leftPart": "V",
+                    "rightPart": "bVaV",
+                    "dotPosition": 0
+                },
+                "position": 1
+            },
+            {
+                "rule": {
+                    "leftPart": "$",
+                    "rightPart": "S",
+                    "dotPosition": 1
+                },
+                "position": 0
+            }
+        ],
+        [
+            {
+                "rule": {
+                    "leftPart": "V",
+                    "rightPart": "aVbV",
+                    "dotPosition": 0
+                },
+                "position": 2
+            },
+            {
+                "rule": {
+                    "leftPart": "U",
+                    "rightPart": "VbU",
+                    "dotPosition": 1
+                },
+                "position": 0
+            },
+            {
+                "rule": {
+                    "leftPart": "U",
+                    "rightPart": "VbV",
+                    "dotPosition": 1
+                },
+                "position": 0
+            },
+            {
+                "rule": {
+                    "leftPart": "V",
+                    "rightPart": "aVbV",
+                    "dotPosition": 3
+                },
+                "position": 0
+            },
+            {
+                "rule": {
+                    "leftPart": "V",
+                    "rightPart": "bVaV",
+                    "dotPosition": 1
+                },
+                "position": 1
+            },
+            {
+                "rule": {
+                    "leftPart": "V",
+                    "rightPart": "aVbV",
+                    "dotPosition": 4
+                },
+                "position": 0
+            },
+            {
+                "rule": {
+                    "leftPart": "V",
+                    "rightPart": "bVaV",
+                    "dotPosition": 2
+                },
+                "position": 1
+            },
+            {
+                "rule": {
+                    "leftPart": "T",
+                    "rightPart": "VaV",
+                    "dotPosition": 1
+                },
+                "position": 0
+            },
+            {
+                "rule": {
+                    "leftPart": "V",
+                    "rightPart": "",
+                    "dotPosition": 0
+                },
+                "position": 2
+            },
+            {
+                "rule": {
+                    "leftPart": "T",
+                    "rightPart": "VaT",
+                    "dotPosition": 1
+                },
+                "position": 0
+            },
+            {
+                "rule": {
+                    "leftPart": "V",
+                    "rightPart": "bVaV",
+                    "dotPosition": 0
+                },
+                "position": 2
+            }
+        ],
+        [
+            {
+                "rule": {
+                    "leftPart": "V",
+                    "rightPart": "aVbV",
+                    "dotPosition": 0
+                },
+                "position": 3
+            },
+            {
+                "rule": {
+                    "leftPart": "V",
+                    "rightPart": "aVbV",
+                    "dotPosition": 1
+                },
+                "position": 2
+            },
+            {
+                "rule": {
+                    "leftPart": "V",
+                    "rightPart": "aVbV",
+                    "dotPosition": 2
+                },
+                "position": 2
+            },
+            {
+                "rule": {
+                    "leftPart": "S",
+                    "rightPart": "T",
+                    "dotPosition": 1
+                },
+                "position": 0
+            },
+            {
+                "rule": {
+                    "leftPart": "V",
+                    "rightPart": "aVbV",
+                    "dotPosition": 2
+                },
+                "position": 0
+            },
+            {
+                "rule": {
+                    "leftPart": "T",
+                    "rightPart": "TaV",
+                    "dotPosition": 1
+                },
+                "position": 0
+            },
+            {
+                "rule": {
+                    "leftPart": "V",
+                    "rightPart": "",
+                    "dotPosition": 0
+                },
+                "position": 3
+            },
+            {
+                "rule": {
+                    "leftPart": "T",
+                    "rightPart": "TaV",
+                    "dotPosition": 0
+                },
+                "position": 3
+            },
+            {
+                "rule": {
+                    "leftPart": "T",
+                    "rightPart": "VaV",
+                    "dotPosition": 0
+                },
+                "position": 3
+            },
+            {
+                "rule": {
+                    "leftPart": "T",
+                    "rightPart": "VaV",
+                    "dotPosition": 1
+                },
+                "position": 3
+            },
+            {
+                "rule": {
+                    "leftPart": "T",
+                    "rightPart": "VaT",
+                    "dotPosition": 0
+                },
+                "position": 3
+            },
+            {
+                "rule": {
+                    "leftPart": "T",
+                    "rightPart": "VaT",
+                    "dotPosition": 1
+                },
+                "position": 3
+            },
+            {
+                "rule": {
+                    "leftPart": "T",
+                    "rightPart": "VaV",
+                    "dotPosition": 1
+                },
+                "position": 1
+            },
+            {
+                "rule": {
+                    "leftPart": "V",
+                    "rightPart": "bVaV",
+                    "dotPosition": 3
+                },
+                "position": 1
+            },
+            {
+                "rule": {
+                    "leftPart": "T",
+                    "rightPart": "VaV",
+                    "dotPosition": 2
+                },
+                "position": 0
+            },
+            {
+                "rule": {
+                    "leftPart": "T",
+                    "rightPart": "VaT",
+                    "dotPosition": 1
+                },
+                "position": 1
+            },
+            {
+                "rule": {
+                    "leftPart": "V",
+                    "rightPart": "bVaV",
+                    "dotPosition": 4
+                },
+                "position": 1
+            },
+            {
+                "rule": {
+                    "leftPart": "T",
+                    "rightPart": "VaV",
+                    "dotPosition": 3
+                },
+                "position": 0
+            },
+            {
+                "rule": {
+                    "leftPart": "T",
+                    "rightPart": "VaT",
+                    "dotPosition": 2
+                },
+                "position": 0
+            },
+            {
+                "rule": {
+                    "leftPart": "V",
+                    "rightPart": "bVaV",
+                    "dotPosition": 0
+                },
+                "position": 3
+            },
+            {
+                "rule": {
+                    "leftPart": "$",
+                    "rightPart": "S",
+                    "dotPosition": 1
+                },
+                "position": 0
+            }
+        ],
+        [
+            {
+                "rule": {
+                    "leftPart": "V",
+                    "rightPart": "aVbV",
+                    "dotPosition": 0
+                },
+                "position": 4
+            },
+            {
+                "rule": {
+                    "leftPart": "V",
+                    "rightPart": "aVbV",
+                    "dotPosition": 3
+                },
+                "position": 2
+            },
+            {
+                "rule": {
+                    "leftPart": "V",
+                    "rightPart": "aVbV",
+                    "dotPosition": 3
+                },
+                "position": 0
+            },
+            {
+                "rule": {
+                    "leftPart": "V",
+                    "rightPart": "aVbV",
+                    "dotPosition": 4
+                },
+                "position": 2
+            },
+            {
+                "rule": {
+                    "leftPart": "V",
+                    "rightPart": "",
+                    "dotPosition": 0
+                },
+                "position": 4
+            },
+            {
+                "rule": {
+                    "leftPart": "V",
+                    "rightPart": "aVbV",
+                    "dotPosition": 4
+                },
+                "position": 0
+            },
+            {
+                "rule": {
+                    "leftPart": "V",
+                    "rightPart": "bVaV",
+                    "dotPosition": 0
+                },
+                "position": 4
+            },
+            {
+                "rule": {
+                    "leftPart": "V",
+                    "rightPart": "bVaV",
+                    "dotPosition": 1
+                },
+                "position": 3
+            },
+            {
+                "rule": {
+                    "leftPart": "V",
+                    "rightPart": "bVaV",
+                    "dotPosition": 2
+                },
+                "position": 3
+            }
+        ],
+        [
+        ],
+        [
+        ],
+        [
+        ],
+        [
+        ],
+        [
+        ],
+        [
+        ]
+    ],
+    "situationsAfterApplying": [
+        [
+            {
+                "rule": {
+                    "leftPart": "U",
+                    "rightPart": "VbU",
+                    "dotPosition": 1
+                },
+                "position": 0
+            },
+            {
+                "rule": {
+                    "leftPart": "S",
+                    "rightPart": "U",
+                    "dotPosition": 0
+                },
+                "position": 0
+            },
+            {
+                "rule": {
+                    "leftPart": "U",
+                    "rightPart": "VbU",
+                    "dotPosition": 0
+                },
+                "position": 0
+            },
+            {
+                "rule": {
+                    "leftPart": "U",
+                    "rightPart": "VbV",
+                    "dotPosition": 1
+                },
+                "position": 0
+            },
+            {
+                "rule": {
+                    "leftPart": "U",
+                    "rightPart": "VbV",
+                    "dotPosition": 0
+                },
+                "position": 0
+            },
+            {
+                "rule": {
+                    "leftPart": "V",
+                    "rightPart": "aVbV",
+                    "dotPosition": 0
+                },
+                "position": 0
+            },
+            {
+                "rule": {
+                    "leftPart": "T",
+                    "rightPart": "TaV",
+                    "dotPosition": 0
+                },
+                "position": 0
+            },
+            {
+                "rule": {
+                    "leftPart": "S",
+                    "rightPart": "T",
+                    "dotPosition": 0
+                },
+                "position": 0
+            },
+            {
+                "rule": {
+                    "leftPart": "V",
+                    "rightPart": "",
+                    "dotPosition": 0
+                },
+                "position": 0
+            },
+            {
+                "rule": {
+                    "leftPart": "U",
+                    "rightPart": "UbV",
+                    "dotPosition": 0
+                },
+                "position": 0
+            },
+            {
+                "rule": {
+                    "leftPart": "T",
+                    "rightPart": "VaV",
+                    "dotPosition": 0
+                },
+                "position": 0
+            },
+            {
+                "rule": {
+                    "leftPart": "V",
+                    "rightPart": "bVaV",
+                    "dotPosition": 0
+                },
+                "position": 0
+            },
+            {
+                "rule": {
+                    "leftPart": "T",
+                    "rightPart": "VaV",
+                    "dotPosition": 1
+                },
+                "position": 0
+            },
+            {
+                "rule": {
+                    "leftPart": "T",
+                    "rightPart": "VaT",
+                    "dotPosition": 0
+                },
+                "position": 0
+            },
+            {
+                "rule": {
+                    "leftPart": "T",
+                    "rightPart": "VaT",
+                    "dotPosition": 1
+                },
+                "position": 0
+            },
+            {
+                "rule": {
+                    "leftPart": "$",
+                    "rightPart": "S",
+                    "dotPosition": 0
+                },
+                "position": 0
+            }
+        ],
+        [
+            {
+                "rule": {
+                    "leftPart": "V",
+                    "rightPart": "aVbV",
+                    "dotPosition": 0
+                },
+                "position": 1
+            },
+            {
+                "rule": {
+                    "leftPart": "V",
+                    "rightPart": "aVbV",
+                    "dotPosition": 1
+                },
+                "position": 0
+            },
+            {
+                "rule": {
+                    "leftPart": "T",
+                    "rightPart": "TaV",
+                    "dotPosition": 0
+                },
+                "position": 1
+            },
+            {
+                "rule": {
+                    "leftPart": "S",
+                    "rightPart": "T",
+                    "dotPosition": 1
+                },
+                "position": 0
+            },
+            {
+                "rule": {
+                    "leftPart": "V",
+                    "rightPart": "aVbV",
+                    "dotPosition": 2
+                },
+                "position": 0
+            },
+            {
+                "rule": {
+                    "leftPart": "T",
+                    "rightPart": "TaV",
+                    "dotPosition": 1
+                },
+                "position": 0
+            },
+            {
+                "rule": {
+                    "leftPart": "V",
+                    "rightPart": "",
+                    "dotPosition": 0
+                },
+                "position": 1
+            },
+            {
+                "rule": {
+                    "leftPart": "T",
+                    "rightPart": "VaV",
+                    "dotPosition": 0
+                },
+                "position": 1
+            },
+            {
+                "rule": {
+                    "leftPart": "T",
+                    "rightPart": "VaV",
+                    "dotPosition": 1
+                },
+                "position": 1
+            },
+            {
+                "rule": {
+                    "leftPart": "T",
+                    "rightPart": "VaT",
+                    "dotPosition": 0
+                },
+                "position": 1
+            },
+            {
+                "rule": {
+                    "leftPart": "T",
+                    "rightPart": "VaV",
+                    "dotPosition": 2
+                },
+                "position": 0
+            },
+            {
+                "rule": {
+                    "leftPart": "T",
+                    "rightPart": "VaT",
+                    "dotPosition": 1
+                },
+                "position": 1
+            },
+            {
+                "rule": {
+                    "leftPart": "T",
+                    "rightPart": "VaV",
+                    "dotPosition": 3
+                },
+                "position": 0
+            },
+            {
+                "rule": {
+                    "leftPart": "T",
+                    "rightPart": "VaT",
+                    "dotPosition": 2
+                },
+                "position": 0
+            },
+            {
+                "rule": {
+                    "leftPart": "V",
+                    "rightPart": "bVaV",
+                    "dotPosition": 0
+                },
+                "position": 1
+            },
+            {
+                "rule": {
+                    "leftPart": "$",
+                    "rightPart": "S",
+                    "dotPosition": 1
+                },
+                "position": 0
+            }
+        ],
+        [
+            {
+                "rule": {
+                    "leftPart": "V",
+                    "rightPart": "aVbV",
+                    "dotPosition": 0
+                },
+                "position": 2
+            },
+            {
+                "rule": {
+                    "leftPart": "U",
+                    "rightPart": "VbU",
+                    "dotPosition": 1
+                },
+                "position": 0
+            },
+            {
+                "rule": {
+                    "leftPart": "U",
+                    "rightPart": "VbV",
+                    "dotPosition": 1
+                },
+                "position": 0
+            },
+            {
+                "rule": {
+                    "leftPart": "V",
+                    "rightPart": "aVbV",
+                    "dotPosition": 3
+                },
+                "position": 0
+            },
+            {
+                "rule": {
+                    "leftPart": "V",
+                    "rightPart": "bVaV",
+                    "dotPosition": 1
+                },
+                "position": 1
+            },
+            {
+                "rule": {
+                    "leftPart": "V",
+                    "rightPart": "aVbV",
+                    "dotPosition": 4
+                },
+                "position": 0
+            },
+            {
+                "rule": {
+                    "leftPart": "V",
+                    "rightPart": "bVaV",
+                    "dotPosition": 2
+                },
+                "position": 1
+            },
+            {
+                "rule": {
+                    "leftPart": "T",
+                    "rightPart": "VaV",
+                    "dotPosition": 1
+                },
+                "position": 0
+            },
+            {
+                "rule": {
+                    "leftPart": "V",
+                    "rightPart": "",
+                    "dotPosition": 0
+                },
+                "position": 2
+            },
+            {
+                "rule": {
+                    "leftPart": "T",
+                    "rightPart": "VaT",
+                    "dotPosition": 1
+                },
+                "position": 0
+            },
+            {
+                "rule": {
+                    "leftPart": "V",
+                    "rightPart": "bVaV",
+                    "dotPosition": 0
+                },
+                "position": 2
+            }
+        ],
+        [
+            {
+                "rule": {
+                    "leftPart": "V",
+                    "rightPart": "aVbV",
+                    "dotPosition": 0
+                },
+                "position": 3
+            },
+            {
+                "rule": {
+                    "leftPart": "V",
+                    "rightPart": "aVbV",
+                    "dotPosition": 1
+                },
+                "position": 2
+            },
+            {
+                "rule": {
+                    "leftPart": "V",
+                    "rightPart": "aVbV",
+                    "dotPosition": 2
+                },
+                "position": 2
+            },
+            {
+                "rule": {
+                    "leftPart": "S",
+                    "rightPart": "T",
+                    "dotPosition": 1
+                },
+                "position": 0
+            },
+            {
+                "rule": {
+                    "leftPart": "V",
+                    "rightPart": "aVbV",
+                    "dotPosition": 2
+                },
+                "position": 0
+            },
+            {
+                "rule": {
+                    "leftPart": "T",
+                    "rightPart": "TaV",
+                    "dotPosition": 1
+                },
+                "position": 0
+            },
+            {
+                "rule": {
+                    "leftPart": "V",
+                    "rightPart": "",
+                    "dotPosition": 0
+                },
+                "position": 3
+            },
+            {
+                "rule": {
+                    "leftPart": "T",
+                    "rightPart": "TaV",
+                    "dotPosition": 0
+                },
+                "position": 3
+            },
+            {
+                "rule": {
+                    "leftPart": "T",
+                    "rightPart": "VaV",
+                    "dotPosition": 0
+                },
+                "position": 3
+            },
+            {
+                "rule": {
+                    "leftPart": "T",
+                    "rightPart": "VaV",
+                    "dotPosition": 1
+                },
+                "position": 3
+            },
+            {
+                "rule": {
+                    "leftPart": "T",
+                    "rightPart": "VaT",
+                    "dotPosition": 0
+                },
+                "position": 3
+            },
+            {
+                "rule": {
+                    "leftPart": "T",
+                    "rightPart": "VaT",
+                    "dotPosition": 1
+                },
+                "position": 3
+            },
+            {
+                "rule": {
+                    "leftPart": "T",
+                    "rightPart": "VaV",
+                    "dotPosition": 1
+                },
+                "position": 1
+            },
+            {
+                "rule": {
+                    "leftPart": "V",
+                    "rightPart": "bVaV",
+                    "dotPosition": 3
+                },
+                "position": 1
+            },
+            {
+                "rule": {
+                    "leftPart": "T",
+                    "rightPart": "VaV",
+                    "dotPosition": 2
+                },
+                "position": 0
+            },
+            {
+                "rule": {
+                    "leftPart": "T",
+                    "rightPart": "VaT",
+                    "dotPosition": 1
+                },
+                "position": 1
+            },
+            {
+                "rule": {
+                    "leftPart": "V",
+                    "rightPart": "bVaV",
+                    "dotPosition": 4
+                },
+                "position": 1
+            },
+            {
+                "rule": {
+                    "leftPart": "T",
+                    "rightPart": "VaV",
+                    "dotPosition": 3
+                },
+                "position": 0
+            },
+            {
+                "rule": {
+                    "leftPart": "T",
+                    "rightPart": "VaT",
+                    "dotPosition": 2
+                },
+                "position": 0
+            },
+            {
+                "rule": {
+                    "leftPart": "V",
+                    "rightPart": "bVaV",
+                    "dotPosition": 0
+                },
+                "position": 3
+            },
+            {
+                "rule": {
+                    "leftPart": "$",
+                    "rightPart": "S",
+                    "dotPosition": 1
+                },
+                "position": 0
+            }
+        ],
+        [
+            {
+                "rule": {
+                    "leftPart": "V",
+                    "rightPart": "aVbV",
+                    "dotPosition": 0
+                },
+                "position": 4
+            },
+            {
+                "rule": {
+                    "leftPart": "U",
+                    "rightPart": "VbU",
+                    "dotPosition": 1
+                },
+                "position": 0
+            },
+            {
+                "rule": {
+                    "leftPart": "V",
+                    "rightPart": "aVbV",
+                    "dotPosition": 3
+                },
+                "position": 2
+            },
+            {
+                "rule": {
+                    "leftPart": "U",
+                    "rightPart": "VbV",
+                    "dotPosition": 1
+                },
+                "position": 0
+            },
+            {
+                "rule": {
+                    "leftPart": "V",
+                    "rightPart": "aVbV",
+                    "dotPosition": 3
+                },
+                "position": 0
+            },
+            {
+                "rule": {
+                    "leftPart": "V",
+                    "rightPart": "aVbV",
+                    "dotPosition": 4
+                },
+                "position": 2
+            },
+            {
+                "rule": {
+                    "leftPart": "V",
+                    "rightPart": "",
+                    "dotPosition": 0
+                },
+                "position": 4
+            },
+            {
+                "rule": {
+                    "leftPart": "V",
+                    "rightPart": "aVbV",
+                    "dotPosition": 4
+                },
+                "position": 0
+            },
+            {
+                "rule": {
+                    "leftPart": "V",
+                    "rightPart": "bVaV",
+                    "dotPosition": 2
+                },
+                "position": 1
+            },
+            {
+                "rule": {
+                    "leftPart": "T",
+                    "rightPart": "VaV",
+                    "dotPosition": 1
+                },
+                "position": 0
+            },
+            {
+                "rule": {
+                    "leftPart": "T",
+                    "rightPart": "VaT",
+                    "dotPosition": 1
+                },
+                "position": 0
+            },
+            {
+                "rule": {
+                    "leftPart": "V",
+                    "rightPart": "bVaV",
+                    "dotPosition": 0
+                },
+                "position": 4
+            },
+            {
+                "rule": {
+                    "leftPart": "V",
+                    "rightPart": "bVaV",
+                    "dotPosition": 1
+                },
+                "position": 3
+            },
+            {
+                "rule": {
+                    "leftPart": "V",
+                    "rightPart": "bVaV",
+                    "dotPosition": 2
+                },
+                "position": 3
+            }
+        ],
+        [
+        ],
+        [
+        ],
+        [
+        ],
+        [
+        ],
+        [
+        ],
+        [
+        ]
+    ],
+    "j": 4,
+    "word": "",
+    "grammar": {
+        "terminals": [
+            "a",
+            "b"
+        ],
+        "nonterminals": [
+            "S",
+            "T",
+            "U",
+            "V"
+        ],
+        "startNonterminal": "S",
+        "rules": {
+            "S": [
+                "T",
+                "U"
+            ],
+            "T": [
+                "VaT",
+                "VaV",
+                "TaV"
+            ],
+            "U": [
+                "VbU",
+                "VbV",
+                "UbV"
+            ],
+            "V": [
+                "aVbV",
+                "bVaV",
+                ""
+            ]
+        }
+    }
+}

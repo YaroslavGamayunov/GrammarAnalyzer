@@ -1,0 +1,428 @@
+{
+    "situations": [
+        [
+            {
+                "rule": {
+                    "leftPart": "S",
+                    "rightPart": "aSbb",
+                    "dotPosition": 0
+                },
+                "position": 0
+            },
+            {
+                "rule": {
+                    "leftPart": "S",
+                    "rightPart": "abb",
+                    "dotPosition": 0
+                },
+                "position": 0
+            },
+            {
+                "rule": {
+                    "leftPart": "$",
+                    "rightPart": "S",
+                    "dotPosition": 0
+                },
+                "position": 0
+            }
+        ],
+        [
+            {
+                "rule": {
+                    "leftPart": "S",
+                    "rightPart": "aSbb",
+                    "dotPosition": 1
+                },
+                "position": 0
+            },
+            {
+                "rule": {
+                    "leftPart": "S",
+                    "rightPart": "abb",
+                    "dotPosition": 0
+                },
+                "position": 1
+            },
+            {
+                "rule": {
+                    "leftPart": "S",
+                    "rightPart": "abb",
+                    "dotPosition": 1
+                },
+                "position": 0
+            },
+            {
+                "rule": {
+                    "leftPart": "S",
+                    "rightPart": "aSbb",
+                    "dotPosition": 0
+                },
+                "position": 1
+            }
+        ],
+        [
+            {
+                "rule": {
+                    "leftPart": "S",
+                    "rightPart": "abb",
+                    "dotPosition": 1
+                },
+                "position": 1
+            },
+            {
+                "rule": {
+                    "leftPart": "S",
+                    "rightPart": "aSbb",
+                    "dotPosition": 1
+                },
+                "position": 1
+            },
+            {
+                "rule": {
+                    "leftPart": "S",
+                    "rightPart": "aSbb",
+                    "dotPosition": 0
+                },
+                "position": 2
+            },
+            {
+                "rule": {
+                    "leftPart": "S",
+                    "rightPart": "abb",
+                    "dotPosition": 0
+                },
+                "position": 2
+            }
+        ],
+        [
+            {
+                "rule": {
+                    "leftPart": "S",
+                    "rightPart": "abb",
+                    "dotPosition": 1
+                },
+                "position": 2
+            },
+            {
+                "rule": {
+                    "leftPart": "S",
+                    "rightPart": "aSbb",
+                    "dotPosition": 0
+                },
+                "position": 3
+            },
+            {
+                "rule": {
+                    "leftPart": "S",
+                    "rightPart": "aSbb",
+                    "dotPosition": 1
+                },
+                "position": 2
+            },
+            {
+                "rule": {
+                    "leftPart": "S",
+                    "rightPart": "abb",
+                    "dotPosition": 0
+                },
+                "position": 3
+            }
+        ],
+        [
+            {
+                "rule": {
+                    "leftPart": "S",
+                    "rightPart": "aSbb",
+                    "dotPosition": 0
+                },
+                "position": 4
+            },
+            {
+                "rule": {
+                    "leftPart": "S",
+                    "rightPart": "abb",
+                    "dotPosition": 0
+                },
+                "position": 4
+            },
+            {
+                "rule": {
+                    "leftPart": "S",
+                    "rightPart": "aSbb",
+                    "dotPosition": 1
+                },
+                "position": 3
+            },
+            {
+                "rule": {
+                    "leftPart": "S",
+                    "rightPart": "abb",
+                    "dotPosition": 1
+                },
+                "position": 3
+            }
+        ],
+        [
+            {
+                "rule": {
+                    "leftPart": "S",
+                    "rightPart": "abb",
+                    "dotPosition": 2
+                },
+                "position": 3
+            }
+        ],
+        [
+            {
+                "rule": {
+                    "leftPart": "S",
+                    "rightPart": "abb",
+                    "dotPosition": 3
+                },
+                "position": 3
+            },
+            {
+                "rule": {
+                    "leftPart": "S",
+                    "rightPart": "aSbb",
+                    "dotPosition": 2
+                },
+                "position": 2
+            }
+        ],
+        [
+        ],
+        [
+        ],
+        [
+        ],
+        [
+        ],
+        [
+        ],
+        [
+        ]
+    ],
+    "situationsAfterApplying": [
+        [
+            {
+                "rule": {
+                    "leftPart": "S",
+                    "rightPart": "aSbb",
+                    "dotPosition": 0
+                },
+                "position": 0
+            },
+            {
+                "rule": {
+                    "leftPart": "S",
+                    "rightPart": "abb",
+                    "dotPosition": 0
+                },
+                "position": 0
+            },
+            {
+                "rule": {
+                    "leftPart": "$",
+                    "rightPart": "S",
+                    "dotPosition": 0
+                },
+                "position": 0
+            }
+        ],
+        [
+            {
+                "rule": {
+                    "leftPart": "S",
+                    "rightPart": "aSbb",
+                    "dotPosition": 1
+                },
+                "position": 0
+            },
+            {
+                "rule": {
+                    "leftPart": "S",
+                    "rightPart": "abb",
+                    "dotPosition": 0
+                },
+                "position": 1
+            },
+            {
+                "rule": {
+                    "leftPart": "S",
+                    "rightPart": "abb",
+                    "dotPosition": 1
+                },
+                "position": 0
+            },
+            {
+                "rule": {
+                    "leftPart": "S",
+                    "rightPart": "aSbb",
+                    "dotPosition": 0
+                },
+                "position": 1
+            }
+        ],
+        [
+            {
+                "rule": {
+                    "leftPart": "S",
+                    "rightPart": "abb",
+                    "dotPosition": 1
+                },
+                "position": 1
+            },
+            {
+                "rule": {
+                    "leftPart": "S",
+                    "rightPart": "aSbb",
+                    "dotPosition": 1
+                },
+                "position": 1
+            },
+            {
+                "rule": {
+                    "leftPart": "S",
+                    "rightPart": "aSbb",
+                    "dotPosition": 0
+                },
+                "position": 2
+            },
+            {
+                "rule": {
+                    "leftPart": "S",
+                    "rightPart": "abb",
+                    "dotPosition": 0
+                },
+                "position": 2
+            }
+        ],
+        [
+            {
+                "rule": {
+                    "leftPart": "S",
+                    "rightPart": "abb",
+                    "dotPosition": 1
+                },
+                "position": 2
+            },
+            {
+                "rule": {
+                    "leftPart": "S",
+                    "rightPart": "aSbb",
+                    "dotPosition": 0
+                },
+                "position": 3
+            },
+            {
+                "rule": {
+                    "leftPart": "S",
+                    "rightPart": "aSbb",
+                    "dotPosition": 1
+                },
+                "position": 2
+            },
+            {
+                "rule": {
+                    "leftPart": "S",
+                    "rightPart": "abb",
+                    "dotPosition": 0
+                },
+                "position": 3
+            }
+        ],
+        [
+            {
+                "rule": {
+                    "leftPart": "S",
+                    "rightPart": "aSbb",
+                    "dotPosition": 0
+                },
+                "position": 4
+            },
+            {
+                "rule": {
+                    "leftPart": "S",
+                    "rightPart": "abb",
+                    "dotPosition": 0
+                },
+                "position": 4
+            },
+            {
+                "rule": {
+                    "leftPart": "S",
+                    "rightPart": "aSbb",
+                    "dotPosition": 1
+                },
+                "position": 3
+            },
+            {
+                "rule": {
+                    "leftPart": "S",
+                    "rightPart": "abb",
+                    "dotPosition": 1
+                },
+                "position": 3
+            }
+        ],
+        [
+            {
+                "rule": {
+                    "leftPart": "S",
+                    "rightPart": "abb",
+                    "dotPosition": 2
+                },
+                "position": 3
+            }
+        ],
+        [
+            {
+                "rule": {
+                    "leftPart": "S",
+                    "rightPart": "abb",
+                    "dotPosition": 3
+                },
+                "position": 3
+            },
+            {
+                "rule": {
+                    "leftPart": "S",
+                    "rightPart": "aSbb",
+                    "dotPosition": 2
+                },
+                "position": 2
+            }
+        ],
+        [
+        ],
+        [
+        ],
+        [
+        ],
+        [
+        ],
+        [
+        ],
+        [
+        ]
+    ],
+    "j": 6,
+    "word": "",
+    "grammar": {
+        "terminals": [
+            "a",
+            "b"
+        ],
+        "nonterminals": [
+            "S"
+        ],
+        "startNonterminal": "S",
+        "rules": {
+            "S": [
+                "aSbb",
+                "abb"
+            ]
+        }
+    }
+}
