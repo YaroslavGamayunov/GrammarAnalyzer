@@ -46,4 +46,43 @@ class AlgoTest {
     fun testComplete() {
         generalMethodTest("complete", testLoader.completeTests) { arrayListOf(it.situations, it.j) }
     }
+
+    @Test
+    fun testParser() {
+        val balancedBracketSequences = Grammar(
+            setOf('(', ')'),
+            setOf('S'),
+            'S',
+            mapOf(
+                "S" to listOf("(S)", "SS", "")
+            )
+        )
+
+        var algo = Algo.fit(balancedBracketSequences)
+
+        assert(algo.predict("(())()"))
+        assert(algo.predict("()()"))
+        assert(algo.predict("()"))
+        assert(algo.predict("(") == false)
+        assert(algo.predict(")") == false)
+        assert(algo.predict(""))
+
+        val palindromes = Grammar(
+            setOf('a', 'b'),
+            setOf('S'),
+            'S',
+            mapOf(
+                "S" to listOf("aSa", "", "bSb", "a", "b")
+            )
+        )
+
+        algo = Algo.fit(palindromes)
+
+        assert(algo.predict("a"))
+        assert(algo.predict("b"))
+        assert(algo.predict("bbaabb"))
+        assert(algo.predict("ab") == false)
+        assert(algo.predict("abababb") == false)
+        assert(algo.predict(""))
+    }
 }
