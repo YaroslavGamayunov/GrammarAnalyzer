@@ -1,6 +1,8 @@
-import kotlin.properties.Delegates
+data class EarleyRule(val leftPart: Char, val rightPart: String, val dotPosition: Int) {
+    fun getNextSymbol() = if (dotPosition < rightPart.length) rightPart[dotPosition] else null
+    fun isComplete() = dotPosition == rightPart.length
+}
 
-data class EarleyRule(val leftPart: Char, val rightPart: String, val dotPosition: Int)
 data class Situation(val rule: EarleyRule, val position: Int)
 
 class Algo(private val grammar: Grammar) {
@@ -57,13 +59,10 @@ class Algo(private val grammar: Grammar) {
         for (situation in situations[j - 1]) {
             val rule = situation.rule
 
-            if (rule.dotPosition == rule.rightPart.length) {
-                continue
-            }
-
-            val a: Char = rule.rightPart[rule.dotPosition]
-            if (a == SpecialSymbols.EPS_SYMBOL.value || a == word[j - 1]) {
-                situations[j].add(Situation(rule.copy(dotPosition = rule.dotPosition + 1), situation.position))
+            rule.getNextSymbol()?.let { a ->
+                if (a == SpecialSymbols.EPS_SYMBOL.value || a == word[j - 1]) {
+                    situations[j].add(Situation(rule.copy(dotPosition = rule.dotPosition + 1), situation.position))
+                }
             }
         }
     }
@@ -73,14 +72,11 @@ class Algo(private val grammar: Grammar) {
 
         for (situation in situations[j]) {
             val rule = situation.rule
-            if (rule.dotPosition >= rule.rightPart.length) {
-                continue
-            }
-
-            val b: Char = rule.rightPart[rule.dotPosition]
-            if (grammar.rules[b.toString()] != null) {
-                for (grammarRule in grammar.rules[b.toString()]!!) {
-                    updatedData.add(Situation(EarleyRule(b, grammarRule, 0), j))
+            rule.getNextSymbol()?.let { b ->
+                if (grammar.rules[b.toString()] != null) {
+                    for (grammarRule in grammar.rules[b.toString()]!!) {
+                        updatedData.add(Situation(EarleyRule(b, grammarRule, 0), j))
+                    }
                 }
             }
         }
@@ -88,14 +84,19 @@ class Algo(private val grammar: Grammar) {
     }
 
     private fun complete(situations: List<MutableSet<Situation>>, j: Int) {
+        val updatedData = arrayListOf<Situation>()
+
         for ((rule1, i) in situations[j]) {
-            if (rule1.dotPosition != rule1.rightPart.length) continue
+            if (!rule1.isComplete()) continue
 
             for ((rule2, k) in situations[i]) {
-                if (rule2.rightPart.filterIndexed { index, c -> c == rule1.leftPart && index == i }.isNotEmpty()) {
-                    situations[j].add(Situation(rule2.copy(dotPosition = rule2.dotPosition + 1), k))
+                rule2.getNextSymbol()?.let {
+                    if (it == rule1.leftPart) {
+                        updatedData.add(Situation(rule2.copy(dotPosition = rule2.dotPosition + 1), k))
+                    }
                 }
             }
         }
+        situations[j].addAll(updatedData)
     }
 }

@@ -7,11 +7,10 @@ fun main() {
                 setOf('(', ')'),
                 setOf('S'),
                 'S',
-                mapOf("S" to listOf("(S)", EPS_SYMBOL.value.toString()))
+                mapOf(
+                    "S" to listOf("(S)", "SS", EPS_SYMBOL.value.toString())
+                )
             )
         )
-
-    println(algo.predict("()"))
-    println(algo.predict("()"))
-    println(algo.predict("(((())))"))
+    print(algo.predict("(()(()()))"))
 }
