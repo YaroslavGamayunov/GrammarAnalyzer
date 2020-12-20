@@ -53,6 +53,19 @@ sourceSets {
     }
 }
 
+task BuildEarleyAnalyzerCli(type: Jar) {
+    manifest {
+        attributes 'Main-Class': 'cli.MainCLIKt'
+    }
+
+    version = "1.0"
+    archivesBaseName = "EarleyAnalyzer"
+
+    from { configurations.compile.collect { it.isDirectory() ? it : zipTree(it) } }
+    with jar
+}
+
+
 test {
     useJUnitPlatform()
 }
