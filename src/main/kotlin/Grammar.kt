@@ -1,5 +1,6 @@
-import java.util.HashMap
+import kotlinx.serialization.Serializable
 
+@Serializable
 data class Grammar(
     val terminals: Set<Char>,
     val nonterminals: Set<Char>,
@@ -19,6 +20,5 @@ data class Grammar(
 
 
 enum class SpecialSymbols(val value: Char) {
-    EPS_SYMBOL('$'),
-    SPECIAL_NON_TERMINAL(0.toChar())
+    SPECIAL_NON_TERMINAL('$')
 }

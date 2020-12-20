@@ -1,0 +1,14 @@
+{
+  "scanTests": {
+    "path": "tests/scan",
+    "numOfTests": 37
+  },
+  "completeTests": {
+    "path": "tests/complete",
+    "numOfTests": 65
+  },
+  "predictTests": {
+    "path": "tests/predict",
+    "numOfTests": 66
+  }
+}

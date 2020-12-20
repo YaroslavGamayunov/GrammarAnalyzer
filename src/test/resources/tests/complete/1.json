@@ -1,0 +1,59 @@
+{
+    "situations": [
+        [
+            {
+                "rule": {
+                    "leftPart": "$",
+                    "rightPart": "S",
+                    "dotPosition": 0
+                },
+                "position": 0
+            }
+        ],
+        [
+        ],
+        [
+        ],
+        [
+        ]
+    ],
+    "situationsAfterApplying": [
+        [
+            {
+                "rule": {
+                    "leftPart": "$",
+                    "rightPart": "S",
+                    "dotPosition": 0
+                },
+                "position": 0
+            }
+        ],
+        [
+        ],
+        [
+        ],
+        [
+        ]
+    ],
+    "j": 0,
+    "word": "",
+    "grammar": {
+        "terminals": [
+            "a",
+            "b"
+        ],
+        "nonterminals": [
+            "S"
+        ],
+        "startNonterminal": "S",
+        "rules": {
+            "S": [
+                "aSa",
+                "",
+                "bSb",
+                "a",
+                "b"
+            ]
+        }
+    }
+}

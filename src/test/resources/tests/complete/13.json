@@ -1,0 +1,69 @@
+{
+    "situations": [
+        [
+            {
+                "rule": {
+                    "leftPart": "$",
+                    "rightPart": "S",
+                    "dotPosition": 0
+                },
+                "position": 0
+            }
+        ],
+        [
+        ],
+        [
+        ],
+        [
+        ],
+        [
+        ],
+        [
+        ],
+        [
+        ]
+    ],
+    "situationsAfterApplying": [
+        [
+            {
+                "rule": {
+                    "leftPart": "$",
+                    "rightPart": "S",
+                    "dotPosition": 0
+                },
+                "position": 0
+            }
+        ],
+        [
+        ],
+        [
+        ],
+        [
+        ],
+        [
+        ],
+        [
+        ],
+        [
+        ]
+    ],
+    "j": 0,
+    "word": "",
+    "grammar": {
+        "terminals": [
+            "(",
+            ")"
+        ],
+        "nonterminals": [
+            "S"
+        ],
+        "startNonterminal": "S",
+        "rules": {
+            "S": [
+                "(S)",
+                "SS",
+                ""
+            ]
+        }
+    }
+}

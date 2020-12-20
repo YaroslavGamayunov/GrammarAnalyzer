@@ -1,0 +1,181 @@
+{
+    "situations": [
+        [
+            {
+                "rule": {
+                    "leftPart": "S",
+                    "rightPart": "SS",
+                    "dotPosition": 1
+                },
+                "position": 0
+            },
+            {
+                "rule": {
+                    "leftPart": "S",
+                    "rightPart": "SS",
+                    "dotPosition": 0
+                },
+                "position": 0
+            },
+            {
+                "rule": {
+                    "leftPart": "S",
+                    "rightPart": "(S)",
+                    "dotPosition": 0
+                },
+                "position": 0
+            },
+            {
+                "rule": {
+                    "leftPart": "S",
+                    "rightPart": "",
+                    "dotPosition": 0
+                },
+                "position": 0
+            },
+            {
+                "rule": {
+                    "leftPart": "$",
+                    "rightPart": "S",
+                    "dotPosition": 0
+                },
+                "position": 0
+            },
+            {
+                "rule": {
+                    "leftPart": "$",
+                    "rightPart": "S",
+                    "dotPosition": 1
+                },
+                "position": 0
+            }
+        ],
+        [
+        ],
+        [
+        ],
+        [
+        ],
+        [
+        ],
+        [
+        ],
+        [
+        ],
+        [
+        ],
+        [
+        ],
+        [
+        ],
+        [
+        ],
+        [
+        ],
+        [
+        ],
+        [
+        ],
+        [
+        ]
+    ],
+    "situationsAfterApplying": [
+        [
+            {
+                "rule": {
+                    "leftPart": "S",
+                    "rightPart": "SS",
+                    "dotPosition": 1
+                },
+                "position": 0
+            },
+            {
+                "rule": {
+                    "leftPart": "S",
+                    "rightPart": "SS",
+                    "dotPosition": 0
+                },
+                "position": 0
+            },
+            {
+                "rule": {
+                    "leftPart": "S",
+                    "rightPart": "(S)",
+                    "dotPosition": 0
+                },
+                "position": 0
+            },
+            {
+                "rule": {
+                    "leftPart": "S",
+                    "rightPart": "",
+                    "dotPosition": 0
+                },
+                "position": 0
+            },
+            {
+                "rule": {
+                    "leftPart": "$",
+                    "rightPart": "S",
+                    "dotPosition": 0
+                },
+                "position": 0
+            },
+            {
+                "rule": {
+                    "leftPart": "$",
+                    "rightPart": "S",
+                    "dotPosition": 1
+                },
+                "position": 0
+            }
+        ],
+        [
+        ],
+        [
+        ],
+        [
+        ],
+        [
+        ],
+        [
+        ],
+        [
+        ],
+        [
+        ],
+        [
+        ],
+        [
+        ],
+        [
+        ],
+        [
+        ],
+        [
+        ],
+        [
+        ],
+        [
+        ]
+    ],
+    "j": 0,
+    "word": "",
+    "grammar": {
+        "terminals": [
+            "(",
+            ")"
+        ],
+        "nonterminals": [
+            "S"
+        ],
+        "startNonterminal": "S",
+        "rules": {
+            "S": [
+                "(S)",
+                "SS",
+                ""
+            ]
+        }
+    }
+}

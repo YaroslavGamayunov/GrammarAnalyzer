@@ -1,15 +1,19 @@
+import kotlinx.serialization.Serializable
+
+@Serializable
 data class EarleyRule(val leftPart: Char, val rightPart: String, val dotPosition: Int) {
-    fun getNextSymbol() = if (dotPosition < rightPart.length) rightPart[dotPosition] else null
+    fun getNextSymbol() = rightPart.getOrNull(dotPosition)
+
     fun isComplete() = dotPosition == rightPart.length
 }
 
+@Serializable
 data class Situation(val rule: EarleyRule, val position: Int)
 
 class Algo(private val grammar: Grammar) {
     companion object {
         fun fit(grammar: Grammar) = Algo(grammar)
     }
-
 
     fun predict(word: String): Boolean {
         if (word.any { !grammar.terminals.contains(it) }) {
@@ -18,7 +22,7 @@ class Algo(private val grammar: Grammar) {
 
         val situations = initialize(word)
         for (j in 0..word.length) {
-            scan(word, situations, j)
+            scan(situations, j, word)
             var prevSize = -1
             while (situations[j].size != prevSize) {
                 prevSize = situations[j].size
@@ -51,7 +55,7 @@ class Algo(private val grammar: Grammar) {
         return situations
     }
 
-    private fun scan(word: String, situations: List<MutableSet<Situation>>, j: Int) {
+    private fun scan(situations: List<MutableSet<Situation>>, j: Int, word: String) {
         if (j == 0) {
             return
         }
@@ -60,7 +64,7 @@ class Algo(private val grammar: Grammar) {
             val rule = situation.rule
 
             rule.getNextSymbol()?.let { a ->
-                if (a == SpecialSymbols.EPS_SYMBOL.value || a == word[j - 1]) {
+                if (a == word[j - 1]) {
                     situations[j].add(Situation(rule.copy(dotPosition = rule.dotPosition + 1), situation.position))
                 }
             }
@@ -73,7 +77,7 @@ class Algo(private val grammar: Grammar) {
         for (situation in situations[j]) {
             val rule = situation.rule
             rule.getNextSymbol()?.let { b ->
-                if (grammar.rules[b.toString()] != null) {
+                if (grammar.rules.containsKey(b.toString())) {
                     for (grammarRule in grammar.rules[b.toString()]!!) {
                         updatedData.add(Situation(EarleyRule(b, grammarRule, 0), j))
                     }

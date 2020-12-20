@@ -1,0 +1,230 @@
+{
+    "situations": [
+        [
+            {
+                "rule": {
+                    "leftPart": "S",
+                    "rightPart": "U",
+                    "dotPosition": 0
+                },
+                "position": 0
+            },
+            {
+                "rule": {
+                    "leftPart": "U",
+                    "rightPart": "VbU",
+                    "dotPosition": 0
+                },
+                "position": 0
+            },
+            {
+                "rule": {
+                    "leftPart": "U",
+                    "rightPart": "VbV",
+                    "dotPosition": 0
+                },
+                "position": 0
+            },
+            {
+                "rule": {
+                    "leftPart": "U",
+                    "rightPart": "UbV",
+                    "dotPosition": 0
+                },
+                "position": 0
+            },
+            {
+                "rule": {
+                    "leftPart": "T",
+                    "rightPart": "TaV",
+                    "dotPosition": 0
+                },
+                "position": 0
+            },
+            {
+                "rule": {
+                    "leftPart": "S",
+                    "rightPart": "T",
+                    "dotPosition": 0
+                },
+                "position": 0
+            },
+            {
+                "rule": {
+                    "leftPart": "T",
+                    "rightPart": "VaV",
+                    "dotPosition": 0
+                },
+                "position": 0
+            },
+            {
+                "rule": {
+                    "leftPart": "T",
+                    "rightPart": "VaT",
+                    "dotPosition": 0
+                },
+                "position": 0
+            },
+            {
+                "rule": {
+                    "leftPart": "$",
+                    "rightPart": "S",
+                    "dotPosition": 0
+                },
+                "position": 0
+            }
+        ],
+        [
+        ],
+        [
+        ],
+        [
+        ],
+        [
+        ],
+        [
+        ],
+        [
+        ],
+        [
+        ],
+        [
+        ],
+        [
+        ],
+        [
+        ]
+    ],
+    "situationsAfterApplying": [
+        [
+            {
+                "rule": {
+                    "leftPart": "S",
+                    "rightPart": "U",
+                    "dotPosition": 0
+                },
+                "position": 0
+            },
+            {
+                "rule": {
+                    "leftPart": "U",
+                    "rightPart": "VbU",
+                    "dotPosition": 0
+                },
+                "position": 0
+            },
+            {
+                "rule": {
+                    "leftPart": "U",
+                    "rightPart": "VbV",
+                    "dotPosition": 0
+                },
+                "position": 0
+            },
+            {
+                "rule": {
+                    "leftPart": "U",
+                    "rightPart": "UbV",
+                    "dotPosition": 0
+                },
+                "position": 0
+            },
+            {
+                "rule": {
+                    "leftPart": "T",
+                    "rightPart": "TaV",
+                    "dotPosition": 0
+                },
+                "position": 0
+            },
+            {
+                "rule": {
+                    "leftPart": "S",
+                    "rightPart": "T",
+                    "dotPosition": 0
+                },
+                "position": 0
+            },
+            {
+                "rule": {
+                    "leftPart": "T",
+                    "rightPart": "VaV",
+                    "dotPosition": 0
+                },
+                "position": 0
+            },
+            {
+                "rule": {
+                    "leftPart": "T",
+                    "rightPart": "VaT",
+                    "dotPosition": 0
+                },
+                "position": 0
+            },
+            {
+                "rule": {
+                    "leftPart": "$",
+                    "rightPart": "S",
+                    "dotPosition": 0
+                },
+                "position": 0
+            }
+        ],
+        [
+        ],
+        [
+        ],
+        [
+        ],
+        [
+        ],
+        [
+        ],
+        [
+        ],
+        [
+        ],
+        [
+        ],
+        [
+        ],
+        [
+        ]
+    ],
+    "j": 0,
+    "word": "",
+    "grammar": {
+        "terminals": [
+            "a",
+            "b"
+        ],
+        "nonterminals": [
+            "S",
+            "T",
+            "U",
+            "V"
+        ],
+        "startNonterminal": "S",
+        "rules": {
+            "S": [
+                "T",
+                "U"
+            ],
+            "T": [
+                "VaT",
+                "VaV",
+                "TaV"
+            ],
+            "U": [
+                "VbU",
+                "VbV",
+                "UbV"
+            ],
+            "V": [
+                "aVbV",
+                "bVaV",
+                ""
+            ]
+        }
+    }
+}
