@@ -35,7 +35,7 @@ class Algo(private val grammar: Grammar) {
             Situation(
                 EarleyRule(
                     SpecialSymbols.SPECIAL_NON_TERMINAL.value,
-                    grammar.startNonTerminal.toString(),
+                    grammar.startNonterminal.toString(),
                     1
                 ), 0
             )
@@ -49,7 +49,7 @@ class Algo(private val grammar: Grammar) {
         }
 
         val initialRule =
-            EarleyRule(SpecialSymbols.SPECIAL_NON_TERMINAL.value, grammar.startNonTerminal.toString(), 0)
+            EarleyRule(SpecialSymbols.SPECIAL_NON_TERMINAL.value, grammar.startNonterminal.toString(), 0)
         situations[0].add(Situation(initialRule, 0))
 
         return situations
