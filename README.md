@@ -22,3 +22,11 @@ This project is built entirely on Kotlin with the help of Gradle, JUnit was used
   ```
    $ ./gradlew runTestsWithReport
    ```
+## CLI
+  In order to make program multifunctional, I have created console inetrface with the ability to load custom grammar 
+  and check if word belongs to the language of the grammar.
+#### How to use it 
+  Firstly, press enter to start the input. Insert rules in the form **S -> a|b|c|d**. Then make a line break and put
+  Starting nonterminal on the next line. After these steps you will be able to check if word belongs to the grammar.
+  To stop the session, i.e create new early parser on different grammar, put ENDS. If you want to quit, put EXIT 
+ 
