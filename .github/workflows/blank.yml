@@ -22,11 +22,14 @@ jobs:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v2
       
-      - name: Setting up the environment
-        run: |
-          sudo apt -y install default-jre
-          ./gradlew build
-          ./gradlew runTestsWithReport
+      - uses: actions/setup-java@v1
+        with:
+          java-version: '9.0.4' # The JDK version to make available on the path.
+          java-package: jre # (jre, jdk, or jdk+fx) - defaults to jdk
+          architecture: x64 # (x64 or x86) - defaults to x64
+          run: |
+               ./gradlew build
+               ./gradlew runTestsWithReport
       - uses: codecov/codecov-action@v1
         with:
            token: ${{ secrets.CODECOV_TOKEN }} 
