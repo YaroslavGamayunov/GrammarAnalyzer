@@ -25,15 +25,15 @@ jacoco {
 }
 
 jacocoTestReport {
-    doFirst {
-        classDirectories.setFrom(files(classDirectories.files.collect {
-            fileTree(dir: it, exclude: 'cli')
-        }))
-    }
-
     reports {
         xml.enabled true
         csv.enabled true
+    }
+
+    afterEvaluate {
+        classDirectories.setFrom(files(classDirectories.files.collect {
+            fileTree(dir: it, exclude: 'cli')
+        }))
     }
 }
 
